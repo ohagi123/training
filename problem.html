@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>問題</title>
+    <link rel="stylesheet" href="problem.css">
+</head>
+<body>
+   
+
+    
+    <div>
+        次の四つの選択肢から正しいものを選びなさい<br>(やり直すなら下の方にあるボタンを押してください)
+    </div>
+
+
+　<!--選択問題を表示-->
+<div>諦める</div>
+<div class="answer">
+<button type="button" class="Choice" id="Choice1" onClick="final(1);" ></button>
+<button type="button" class="Choice"  id="Choice2" onClick="final(2);" ></button>
+<button type="button" class="Choice"  id="Choice3" onClick="final(3);"></button>
+<button type="button" class="Choice"  id="Choice4" onClick="final(4);"></button>
+</div>
+
+<!--選択問題を表示2-->
+<div>恐怖</div>
+<div class="answer">
+    <button type="button" class="Choice" id="Choice5" onClick="final(5);"></button>
+    <button type="button" class="Choice" id="Choice6" onClick="final(6);"></button>
+    <button type="button" class="Choice" id="Choice7" onClick="final(7);"></button>
+    <button type="button" class="Choice" id="Choice8" onClick="final(8);"></button>
+    </div>
+
+<!--選択問題を表示3-->
+<div>死屍累々</div>
+<div class="answer">
+    <button type="button" class="Choice" id="Choice9" onClick="final(9);"></button>
+    <button type="button" class="Choice" id="Choice10" onClick="final(10);"></button>
+    <button type="button" class="Choice" id="Choice11" onClick="final(11);"></button>
+    <button type="button" class="Choice" id="Choice12" onClick="final(12);"></button>
+    </div>
+
+    <!--選択問題を表示4-->
+    <div>金剛</div>
+<div class="answer">
+    <button type="button" class="Choice" id="Choice13" onClick="final(13);"></button>
+    <button type="button" class="Choice" id="Choice14" onClick="final(14);"></button>
+    <button type="button" class="Choice" id="Choice15" onClick="final(15);"></button>
+    <button type="button" class="Choice" id="Choice16" onClick="final(16);"></button>
+    </div>
+
+
+<!--答え合わせをする-->
+
+<button type="button" class="result"  id="result" onClick="result();">合計点数</button> 
+
+
+<button type="button" class="reset" id="reset" onClick="reset();" >全てやり直す</button>  
+    
+
+<script src="problem.js"></script>
+</body>
+</html>
