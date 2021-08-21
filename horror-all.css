@@ -1,0 +1,25 @@
+body{
+    background-color: black;
+    text-align: center;
+}
+.story{
+    color: rgba(255, 255, 255, 0.603);
+}
+.title{
+    color: red;
+}
+#answer{
+    background-color: black;
+    color: red;
+}
+#result-area{
+    color: red;
+}
+#explanation{
+    color: red;
+    padding: 30px;
+}
+#commentary{
+    color: red;
+    padding: 30px;
+}
