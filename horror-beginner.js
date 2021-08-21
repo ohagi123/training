@@ -24,7 +24,7 @@ answer.onclick = function(){
         commentary.innerText = "解説？:祖母を殺した犯人は父親。父は昔から祖母に何かしらの恨みを持っていたのかもしれない"
     }else{
         resultDivided.innerText = "不正解です"
-        commentary.innerText = "ヒント:なぜ、父に向かって吠えだしたほだろう？"
+        commentary.innerText = "ヒント:なぜ、父に向かって吠えだしたのだろう？"
     }
 
  
