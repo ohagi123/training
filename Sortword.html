@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>English sort</title>
+  <style>
+    body{
+      text-align: center;
+    }
+    #enter{
+      font-size: 20px;
+    }
+    .while{
+      margin: 10px;
+    }
+    #onetry{
+      font-size: 30px;
+    }
+  </style>
+</head>
+<body onload="set()">
+
+<!--問題番号-->
+<h3 id="order"></h3>
+
+<!--英単語を入れる-->
+<h1 id="word"></h1>
+
+<input type="text" id="answer" size="40px">
+
+<input type="button" id="enter" value="Enter" onclick="enter()" onclick="clearText()" ></input>
+
+<!--結果-->
+<div id="result"class="while"></div>
+<div id="result2"class="while"></div>
+
+<!--タイム-->
+<div id="timer"></div>
+
+<!--トライ-->
+<div id="onetry" onclick="OneTry()"></div>
+
+<script src="Sortword.js"></script>
+</body>
+</html>
